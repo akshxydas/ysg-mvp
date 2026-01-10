@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Aluva Manappuram",
+    "type": "Temple",
+    "description": "A famous Shiva temple on the banks of the Periyar River, known for rituals and peaceful surroundings.",
+    "latitude": 10.107285,
+    "longitude": 76.348701,
+    "rating": 4.5,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Aluva_Manappuram.jpg",
+    "address": "Periyar River, Aluva, Kerala",
+    "best_time": "Morning"
+  },
+  {
+    "id": 2,
+    "name": "Lulu Mall Kochi",
+    "type": "Shopping Mall",
+    "description": "One of the largest malls in India with shopping, dining, cinema, and entertainment options.",
+    "latitude": 10.0273,
+    "longitude": 76.3084,
+    "rating": 4.6,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/LuLu_Mall_Kochi.jpg",
+    "address": "Edappally, Kochi, Kerala",
+    "best_time": "Evening"
+  },
+  {
+    "id": 3,
+    "name": "Mangalavanam Bird Sanctuary",
+    "type": "Nature Reserve",
+    "description": "An urban green lung of Kochi, home to migratory birds and mangroves. A peaceful nature retreat.",
+    "latitude": 9.9816,
+    "longitude": 76.2757,
+    "rating": 4.3,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Mangalavanam_Bird_Sanctuary.jpg",
+    "address": "Near High Court, Kochi, Kerala",
+    "best_time": "Morning"
+  },
+  {
+    "id": 4,
+    "name": "Cherai Beach",
+    "type": "Beach",
+    "description": "A serene beach with calm waters and picturesque views. Popular for family outings and sunset views.",
+    "latitude": 10.1557,
+    "longitude": 76.1731,
+    "rating": 4.4,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Cherai_Beach.jpg",
+    "address": "Cherai, Kochi, Kerala",
+    "best_time": "Evening"
+  },
+  {
+    "id": 5,
+    "name": "Hill Palace Museum",
+    "type": "Museum",
+    "description": "The largest archaeological museum in Kerala, showcasing royal artifacts, paintings, and heritage exhibits.",
+    "latitude": 9.9523,
+    "longitude": 76.3572,
+    "rating": 4.5,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Hill_Palace_Museum.jpg",
+    "address": "Tripunithura, Kochi, Kerala",
+    "best_time": "Afternoon"
+  }
+]
