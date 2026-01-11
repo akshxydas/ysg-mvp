@@ -21,11 +21,11 @@ export default function AboutPage() {
           </h2>
           <p className="text-gray-700 mb-4">
             YouShouldGo is a location-based discovery app that helps you find interesting places to visit 
-            when you have free time. Whether you're looking for temples, viewpoints, hiking trails, beaches, 
-            or other attractions, we'll help you discover the best spots near your current location.
+            when you have free time. Whether you&apos;re looking for temples, viewpoints, hiking trails, beaches, 
+            or other attractions, we&apos;ll help you discover the best spots near your current location.
           </p>
           <p className="text-gray-700">
-            Our app uses your device's location to calculate distances and show you the nearest places, 
+            Our app uses your device&apos;s location to calculate distances and show you the nearest places, 
             sorted by proximity. Each place includes detailed information about the best time to visit, 
             ratings, and descriptions to help you make informed decisions.
           </p>
