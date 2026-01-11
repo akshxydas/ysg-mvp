@@ -54,7 +54,7 @@ export default function TermsPage() {
               3. Location Services and Privacy
             </h2>
             <p className="text-gray-700 mb-4">
-              YouShouldGo requires access to your device's location to provide relevant recommendations. 
+              YouShouldGo requires access to your device&apos;s location to provide relevant recommendations. 
               Your location data is processed locally on your device and is not stored on our servers or 
               shared with third parties.
             </p>

@@ -58,7 +58,7 @@ export default function AboutPage() {
               <h3 className="text-lg font-semibold text-gray-900">Smart Search & Filter</h3>
             </div>
             <p className="text-gray-700">
-              Search places by keywords or filter by type. Find exactly what you're looking for 
+              Search places by keywords or filter by type. Find exactly what you&apos;re looking for 
               with our intuitive search and filtering system.
             </p>
           </div>
@@ -106,7 +106,7 @@ export default function AboutPage() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Accept Terms & Conditions</h3>
                 <p className="text-gray-700">
-                  When you first visit the app, you'll need to read and accept our terms and conditions, 
+                  When you first visit the app, you&apos;ll need to read and accept our terms and conditions, 
                   including important disclaimers about data accuracy.
                 </p>
               </div>

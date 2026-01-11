@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { Coordinates } from '@/utils/distance'
 
 interface LocationPermissionProps {
@@ -12,7 +12,7 @@ export default function LocationPermission({ onLocationUpdate }: LocationPermiss
   const [errorMessage, setErrorMessage] = useState('')
   const [userCoords, setUserCoords] = useState<Coordinates | null>(null)
 
-  const requestLocation = () => {
+  const requestLocation = useCallback(() => {
     setLocationStatus('requesting')
     setErrorMessage('')
 
@@ -54,12 +54,12 @@ export default function LocationPermission({ onLocationUpdate }: LocationPermiss
         maximumAge: 60000,
       }
     )
-  }
+  }, [onLocationUpdate])
 
   useEffect(() => {
     // Auto-request location when component mounts
     requestLocation()
-  }, [])
+  }, [requestLocation])
 
   if (locationStatus === 'success') {
     return (
@@ -82,7 +82,7 @@ export default function LocationPermission({ onLocationUpdate }: LocationPermiss
           </div>
         )}
         <p className="text-green-700 text-sm">
-          We're finding the best places near you...
+          We&apos;re finding the best places near you...
         </p>
       </div>
     )

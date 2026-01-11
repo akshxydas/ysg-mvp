@@ -155,7 +155,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-lg font-medium text-gray-900 mb-2">No places found nearby</h3>
                 <p className="text-gray-600">
-                  We couldn't find any places within {distanceThreshold} km of your location. Try increasing the search radius or moving to a different area.
+                  We couldn&apos;t find any places within {distanceThreshold} km of your location. Try increasing the search radius or moving to a different area.
                 </p>
               </div>
             )}
